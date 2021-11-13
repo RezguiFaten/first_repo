@@ -1,0 +1,333 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400&display=swap');
+
+
+
+.barre img{
+    height:auto ;
+    width: 300px;
+  
+  
+}
+
+nav{
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+    
+
+  }
+
+ nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 20px 
+ }   
+
+ nav ul li a {
+    color:#ababab;
+    text-decoration: none;
+    font-size: 20px;
+   
+}
+
+nav ul li a:hover{
+    color: #00b39b;  
+  }
+  .logo{
+    height:40px; ;
+    width:40px;
+    display: block;
+   margin-left: 650px;
+   margin-right: 650px ;
+   padding-top: 30px;
+
+  }
+  h2{
+   color: #00b39b;
+   text-align: center;
+   font-family:'Roboto', sans-serif;
+   font-size: 35px;
+  }
+
+.para{
+
+font-family: "Roboto",Arial,sans-serif;
+font-weight: bold;
+color: #747474;
+display: flex;
+margin-left: 210px;
+margin-right: 210px ;
+line-height: 2;   
+}
+.Services{
+  font-family:'Work Sans', sans-serif;
+  color: white;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 150px;
+  margin-right: 150px;
+  padding-top: 50px;
+ 
+
+}
+h5{
+  font-weight: bold;
+  font-size: 28px;
+}
+
+.box{
+  display: flex ;
+  justify-content: center ;
+  align-items: center ;
+  color: white;
+}
+.card1
+    {
+  height: 340px ;
+  width: 280px ;
+  padding: 20px 30px ;
+  border-radius: 20px ;
+  margin : 10px ; 
+  position: relative;
+  overflow: hidden ;
+  text-align: left ;
+  background-color: #00b39b;
+}
+.card2 
+    {
+  height: 340px ;
+  width: 280px ;
+  padding: 20px 30px ;
+  border-radius: 20px ;
+  margin : 10px ; 
+  position: relative;
+  overflow: hidden ;
+  text-align: left ;
+  background-color: #3d83df;
+}
+.card3
+    {
+  height: 340px ;
+  width: 280px ;
+  padding: 20px 30px ;
+  border-radius: 20px ;
+  margin : 10px ; 
+  position: relative;
+  overflow: hidden ;
+  text-align: left ;
+  background-color: rgb(2, 2, 48) ;
+  
+  }
+
+ h1{
+  color: #00b39b;
+  font-family:"Roboto",Arial,sans-serif;
+  font-size: 25px;
+  margin-left: 50px;
+  margin-right: 50px;
+  letter-spacing: 2px;
+}
+.znany{
+  height:auto ;
+  width: 110px;
+
+}
+.doc{
+  height:auto ;
+  width: 110px;
+
+}
+.mio{
+  height:auto ;
+  width: 110px;
+
+}
+.doctor{
+  height:auto ;
+  width: 110px;
+}
+.znamy{
+  height:auto ;
+  width: 110px;
+  
+}
+.tu{
+  height:auto ;
+  width: 180px;
+
+}
+
+.company{
+  display: flex;
+  padding-top: 50px;
+  margin-left: 120px;
+  margin-right: 120px ;
+}
+
+.company ul li{
+
+  list-style-type: none;
+  display:inline-block;
+  padding: 10px;
+} 
+
+.platform{
+  background-image: url(../image/logo.png);
+  background-repeat: no-repeat;
+  background: #e5faf8;
+  display: flex;
+  overflow: hidden;
+  padding: 1.875em 0 0.625em;
+  margin: 3.25rem auto 5.5rem;
+}
+ 
+
+  h4{
+    color: #00b39b;
+    font-family:"Roboto",Arial,sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+  }
+  
+.platform p {
+     color: #747474; 
+    }
+   
+
+ .col_1{
+   padding-right: 50px;
+   padding-left: 200px;
+
+      }
+
+  h3{
+  color: #00b39b;
+  font-family:"Roboto",Arial,sans-serif;
+ 
+     } 
+     
+.col_2{
+    display: grid;
+    grid-template-columns: 250px 250px;
+    grid-gap: 20px;
+    color: #444;
+    margin-left: 30px;
+    margin-right: 200px;
+      
+}
+
+.flagg
+{
+    background-color: white;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: 1px solid rgba(0,0,0,.03);
+    text-align: center;
+    padding: 15px;
+  
+}
+
+.visitt
+{
+    background-color: white;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    border-radius: 5px;
+    border: 1px solid rgba(0,0,0,.03);
+    text-align: center;
+    padding: 15px;
+    
+}
+
+.patientt
+{
+    background-color: white;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    margin-top: 20px;
+    text-align: center;
+    padding: 15px;
+    
+}
+.doctorsss
+{
+    background-color: white;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    text-align: center;
+    padding: 15px;
+   
+}
+
+
+.improve{
+
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+.pictures{
+ 
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+.pictures p{
+  color: #747474;
+  font-size: 25px;
+  
+
+}
+
+.btn{
+  background: #3d83df;
+  display: inline-block;
+  
+}
+.bout{
+  display: flex;
+}
+
+.sounds{
+  text-align: center;
+
+}
+  
+
+h6{
+  color: #333;
+  font-size: 30px;
+  font-family:"Roboto",Arial,sans-serif; ;
+
+}
+
+
+.footer{
+  color: #ababab;
+  padding-top: 100px;
+  text-align: center;
+  font-size: 12px;
+}
+
+.btnn{
+  background: #3d83df;
+
+}
+
+
+ 
